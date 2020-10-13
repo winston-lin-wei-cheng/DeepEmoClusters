@@ -1,0 +1,5 @@
+/NormTerm
+/__pycache__
+/models/__pycache__
+/test
+pred_result.csv
