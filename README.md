@@ -1,6 +1,8 @@
 # DeepEmoClusters
 This is an implementation of semi-supervised [DeepEmoClusters]() framework for the attribute-based speech emotion recognition (SER) tasks. Part of the codes are contributed from the [DeepCluster](https://github.com/facebookresearch/deepcluster) repository. The experiments and trained models were based on the MSP-Podcast v1.6 corpus in the paper.
 
+![The DeepEmoClusters Framework](/images/DeepEmoClusters.png)
+
 
 # Suggested Environment and Requirements
 1. Python 3.6
