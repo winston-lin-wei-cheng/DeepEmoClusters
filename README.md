@@ -1,13 +1,13 @@
 # DeepEmoClusters
-This is an implementation of semi-supervised [DeepEmoClusters]() framework for the attribute-based speech emotion recognition (SER) tasks. Part of the codes are contributed from the [DeepCluster](https://github.com/facebookresearch/deepcluster) repository. The experiments and trained models were based on the MSP-Podcast v1.6 corpus in the paper.
+This is an implementation of semi-supervised [DeepEmoCluster]() framework for the attribute-based speech emotion recognition (SER) tasks. Part of the codes are contributed from the [DeepCluster](https://github.com/facebookresearch/deepcluster) repository. The experiments and trained models were based on the MSP-Podcast v1.6 corpus in the paper.
 
-![The DeepEmoClusters Framework](/images/DeepEmoClusters.png)
+![The DeepEmoCluster Framework](/images/DeepEmoCluster.png)
 
 
 # Suggested Environment and Requirements
-1. Python 3.6
+1. Python 3.6+
 2. Ubuntu 18.04
-3. CUDA 10.0
+3. CUDA 10.0+
 4. pytorch version 1.4.0
 5. librosa version 0.7.0
 6. faiss version 1.6.0
@@ -52,7 +52,7 @@ Since the framework is an end-to-end model, we also provide the complete predict
 # Reference
 If you use this code, please cite the following paper:
 
-Wei-Cheng Lin, Kusha Sridhar and Carlos Busso, "DeepEmoClusters: A Semi-Supervised Framework for Latent Cluster Representation of Speech Emotions"
+Wei-Cheng Lin, Kusha Sridhar and Carlos Busso, "DeepEmoCluster: A Semi-Supervised Framework for Latent Cluster Representation of Speech Emotions"
 
 ```
 @InProceedings{xXx,
