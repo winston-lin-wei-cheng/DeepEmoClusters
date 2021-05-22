@@ -1,5 +1,5 @@
 # DeepEmoClusters
-This is an implementation of semi-supervised [DeepEmoCluster]() framework for the attribute-based speech emotion recognition (SER) tasks. Part of the codes are contributed from the [DeepCluster](https://github.com/facebookresearch/deepcluster) repository. The experiments and trained models were based on the MSP-Podcast v1.6 corpus in the paper.
+This is an implementation of semi-supervised [DeepEmoCluster](https://ieeexplore.ieee.org/abstract/document/9414035) framework for the attribute-based speech emotion recognition (SER) tasks. Part of the codes are contributed from the [DeepCluster](https://github.com/facebookresearch/deepcluster) repository. The experiments and trained models were based on the MSP-Podcast v1.6 corpus in the paper.
 
 ![The DeepEmoCluster Framework](/images/DeepEmoCluster.png)
 
@@ -37,7 +37,7 @@ python online_testing.py -ep 50 -batch 64 -emo Act -nc 10
 ```
 
 # Pre-trained models
-We provide some trained models based on **version 1.6** of the MSP-Podcast in the *'trained_models'* folder. The CCC performances of models based on the test set are shown in the following table. Note that the results are slightly different from the [paper]() since we performed statistical test in the paper (i.e., we averaged multiple trails results together).
+We provide some trained models based on **version 1.6** of the MSP-Podcast in the *'trained_models'* folder. The CCC performances of models based on the test set are shown in the following table. Note that the results are slightly different from the [paper](https://ieeexplore.ieee.org/abstract/document/9414035) since we performed statistical test in the paper (i.e., we averaged multiple trails results together).
 
 | 40K unlabeled set | Act(10-clusters) | Dom(30-clusters) | Val(30-clusters) |
 |:----------------:|:----------------:|:----------------:|:----------------:|
@@ -55,10 +55,15 @@ If you use this code, please cite the following paper:
 Wei-Cheng Lin, Kusha Sridhar and Carlos Busso, "DeepEmoCluster: A Semi-Supervised Framework for Latent Cluster Representation of Speech Emotions"
 
 ```
-@InProceedings{xXx,
-  title={XXX},
-  author={XXX},
-  booktitle={XXX},
-  year={2021},
+@InProceedings{Lin_2021, 
+  author={W.-C. Lin and K. Sridhar and C. Busso}, 
+  title={{DeepEmoCluster}: A Semi-Supervised Framework for Latent Cluster Representation of Speech Emotions},
+  booktitle={IEEE international conference on acoustics, speech and signal processing (ICASSP 2021)}, 
+  volume={},
+  year={2021}, 
+  month={June}, 
+  pages={7263-7267}, 
+  address =  {Toronto, ON, Canada},
+  doi={10.1109/ICASSP39728.2021.9414035},
 } 
 ```
