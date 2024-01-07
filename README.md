@@ -1,6 +1,8 @@
 # DeepEmoClusters
 This is an implementation of semi-supervised [DeepEmoCluster](https://ieeexplore.ieee.org/abstract/document/9414035) framework for the attribute-based speech emotion recognition (SER) tasks. Part of the codes are contributed from the [DeepCluster](https://github.com/facebookresearch/deepcluster) repository. The experiments and trained models were based on the MSP-Podcast v1.6 corpus in the paper.
 
+:exclamation::exclamation::exclamation:**NEW: Improved DeepEmoCluster framework is now available at this [repo](https://github.com/winston-lin-wei-cheng/Temporal-Enhanced-DeepEmoCluster)**
+
 ![The DeepEmoCluster Framework](/images/DeepEmoCluster.png)
 
 
